@@ -70,7 +70,7 @@ def show_exposure(username):
 
 @app.route('/')
 def index():
-    users = ["AaronCosta", "bpcologna", "F0rsaken", "jsn77", "komendera", "LeVerticalDFS", "moklovin", "papagates", "youdacao"]  # users to scrape
+    users = []  # users to scrape
     user_links = ""
     
     for user in users:
